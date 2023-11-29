@@ -1,5 +1,5 @@
 ↑isRoot: true
-comment: My First Page as root page
+comment: Page with a Left and Right menus
 preloadPriority: high
 scriptContent: 
   - xmlizable: 

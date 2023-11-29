@@ -3,7 +3,7 @@
 
 # menu
 
-Convertigo NGX builder Project
+How to use multiple menus
 
 
 For more technical informations : [documentation](./project.md)
@@ -25,13 +25,13 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     menu=C:/Convertigo/Studio 8.1.0/workspace/menu/.git:branch=master
+     menu=https://github.com/convertigo/c8oprj-sample-menu.git:branch=master
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     menu=C:/Convertigo/Studio 8.1.0/workspace/menu//archive/master.zip
+     menu=https://github.com/convertigo/c8oprj-sample-menu/archive/master.zip
      ```
      </td></tr>
     </table>
@@ -40,13 +40,13 @@ For more technical informations : [documentation](./project.md)
 
 ## Mobile Application
 
-Describes the mobile application global properties
+Sample NGX application to show how to use multiple menus.
 
 ### Pages
 
 #### Page
 
-My First Page as root page
+Page with a Left and Right menus
 
 ### Shared Actions
 
@@ -59,7 +59,7 @@ My First Page as root page
 <th>name</th><th>comment</th>
 </tr>
 <tr>
-<td>active</td><td></td>
+<td>active</td><td>Name of the menu to activate</td>
 </tr>
 </table>
 

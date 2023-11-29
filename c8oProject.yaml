@@ -1,6 +1,6 @@
 ↑convertigo: 8.1.0.m006
 ↓menu [core.Project]: 
-  comment: Convertigo NGX builder Project
+  comment: How to use multiple menus
   corsOrigin: =Origin
   version: 1.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
@@ -8,7 +8,7 @@
     comment: ngx builder template
     projectName: mobilebuilder_tpl_8_1_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_8_1_0_ngx.zip
   ↓Application [core.MobileApplication]: 
-    comment: Describes the mobile application global properties
+    comment: Sample NGX application to show how to use multiple menus.
     splashRemoveMode: beforeUpdate
     ↓Android [mobileplatforms.Android]: 
       comment: Android platform
