@@ -63,7 +63,9 @@ componentScriptContent:
         	/*End_c8o_AppFunction*/
         '
 tplProjectName: mobilebuilder_tpl_8_1_0_ngx
-↓Menu [ngx.components.UIDynamicMenu-1500890597895]: 🗏 mobileMenus/Menu.yaml
+↓LeftMenu [ngx.components.UIDynamicMenu-1676481308604]: 🗏 mobileMenus/LeftMenu.yaml
+↓RightMenu [ngx.components.UIDynamicMenu-1676299221215]: 🗏 mobileMenus/RightMenu.yaml
+↓openMenu [ngx.components.UIActionStack-1676298923310]: 🗏 mobileSharedActions/openMenu.yaml
 ↓Page [ngx.components.PageComponent-1500538678074]: 🗏 mobilePages/Page.yaml
 ↓Style [ngx.components.UIStyle-1491635462437]: 
   comment: You can add some global application styles here

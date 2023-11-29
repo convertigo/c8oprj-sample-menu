@@ -31,7 +31,12 @@ title: First page
         beanData: '{"ionBean":"BackButton"}'
         tagName: ion-back-button
       ↓MenuButton [ngx.components.UIDynamicElement-1588172846908]: 
-        beanData: '{"ionBean":"MenuButton"}'
+        beanData: |
+          '{
+           "ionBean": "MenuButton",
+           "AutoHide": "plain:false",
+           "MenuId": "plain:Menu"
+          }'
         tagName: ion-menu-button
     ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
       beanData: '{"ionBean":"BarTitle"}'
@@ -60,6 +65,84 @@ title: First page
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓Button [ngx.components.UIDynamicElement-1676299485182]: 
+    beanData: '{"ionBean":"Button","IonExpand":"plain:full"}'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1676299485184]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓Text [ngx.components.UIText-1676299485186]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Open Left Menu
+    ↓Event [ngx.components.UIControlEvent-1676299485188]: 
+      ↓InvokeSharedAction [ngx.components.UIDynamicInvoke-1676299520201]: 
+        beanData: '{"ionBean":"InvokeAction"}'
+        stack: menu.Application.NgxApp.openMenu
+        ↓active [ngx.components.UIControlVariable-1676299525784]: 
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'LeftMenu'
+  ↓Button2 [ngx.components.UIDynamicElement-1676641075940]: 
+    beanData: '{"ionBean":"Button","IonExpand":"plain:full"}'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1676641075943]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓Text [ngx.components.UIText-1676641075946]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Open Right Menu
+    ↓Event [ngx.components.UIControlEvent-1676641075949]: 
+      ↓InvokeSharedAction [ngx.components.UIDynamicInvoke-1676641075952]: 
+        beanData: '{"ionBean":"InvokeAction"}'
+        stack: menu.Application.NgxApp.openMenu
+        ↓active [ngx.components.UIControlVariable-1676641075955]: 
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'RightMenu'
+  ↓MenuToggle [ngx.components.UIDynamicElement-1676301549774]: 
+    beanData: |
+      '{
+       "ionBean": "MenuToggle",
+       "AutoHide": "plain:false",
+       "MenuId": "plain:RightMenu"
+      }'
+    tagName: ion-menu-toggle
+    ↓Button [ngx.components.UIDynamicElement-1676301598654]: 
+      beanData: '{"ionBean":"Button","IonExpand":"plain:full"}'
+      tagName: ion-button
+      ↓Label [ngx.components.UIDynamicElement-1676301598657]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1676301598660]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:MenuToggle Right Menu
+  ↓MenuToggle1 [ngx.components.UIDynamicElement-1676641027660]: 
+    beanData: |
+      '{
+       "ionBean": "MenuToggle",
+       "AutoHide": "plain:false",
+       "MenuId": "plain:LeftMenu"
+      }'
+    tagName: ion-menu-toggle
+    ↓Button [ngx.components.UIDynamicElement-1676641027663]: 
+      beanData: '{"ionBean":"Button","IonExpand":"plain:full"}'
+      tagName: ion-button
+      ↓Label [ngx.components.UIDynamicElement-1676641027666]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1676641027669]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:MenuToggle Left Menu
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer

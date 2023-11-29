@@ -1,0 +1,39 @@
+↓active [ngx.components.UIStackVariable-1676298950384]: 
+  value: '''Menu'''
+↓enableMenu [ngx.components.UICustomAction-1676299013005]: 
+  actionValue: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          '		page.c8o.log.debug(''[MB] ''+ props.actionFunction +'': ''+ props.actionName);
+          		
+          		let menuCtrl = page.getInstance(MenuController);
+          		
+          		menuCtrl.open(vars.active).then((res)=>{
+          			console.log("Open: " + JSON.stringify(res));
+          		});
+          		
+          		/*let openedMenu = menuCtrl.getOpen();
+          		if(openedMenu && openedMenu.id != vars.active){
+          		    resolve();
+          		    return;
+          		}
+          		
+          		if(!menuCtrl.isOpen(vars.active)){
+          		    let menus = menuCtrl.getMenus();
+              		for (let i = 0; i < menus.length; i++){
+              		    menuCtrl.enable(false, menus[i].id);
+              		}
+              		
+              		menuCtrl.enable(true, vars.active);
+              		menuCtrl.open(vars.active);
+          		}*/
+          		
+          		resolve();
+          '
+  ↓active [ngx.components.UIControlVariable-1676299055794]: 
+    varValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Action","project":"menu","input":"","model":{"data":[{"priority":1676298923310}],"path":"?.in?.vars?.active","prefix":"","suffix":"","custom":"","useCustom":false}}

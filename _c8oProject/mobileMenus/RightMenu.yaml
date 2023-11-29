@@ -1,0 +1,460 @@
+beanData: |
+  '{
+   "ionBean": "Menu",
+   "MenuType": "plain:push",
+   "MenuSide": "plain:end"
+  }'
+comment: A menu with all pages added automatically
+tagName: ion-menu
+↓Style [ngx.components.UIStyle-1676453122514]: 
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          '	ion-grid.rightMenu {
+          		background-color: #522114;
+          		
+          		ion-row {
+          /* 			padding: 0.5rem; */
+          			
+          			ion-col {
+          /* 				border: 1px solid #403ea1; */
+              			background-color: #e0381a;
+              			box-shadow: 0 1px 4px #441b10;
+          				margin: 0.3rem;
+          				border-radius: 4px;
+          				padding: 0;
+          				
+          				div.vCenter {
+          					height: 100%;
+          					display: flex;
+               				justify-content: center;
+               				align-items: center;
+               				color: #fff !important;
+               				  				
+          	     			p {
+          	 					margin-block-start: 0.5em;
+          						margin-block-end: 0;
+          						font-size: 0.8rem;
+          	 				}
+          				}				
+          				
+          				div.bg1, div.bg2, div.bg3 {
+          					background-color: transparent;
+          					background-position: center;
+          					background-repeat: no-repeat;
+          					background-size: cover;
+          					border-radius: 4px;
+          				}
+          				
+          				div.bg1 {
+          					background-image: url("../../../../DisplayObjects/mobile/assets/great-smoky-mountains-national-park-nc-western-north-carolina-dave-allen.jpg");
+          				}
+          				
+          				div.bg2 {
+          					background-image: url("../../../../DisplayObjects/mobile/assets/Historic-mill-in-Golling-Salzburg.jpg");
+          				}
+          				
+          				div.bg3 {
+          					background-image: url("../../../../DisplayObjects/mobile/assets/coucher-de-soleil-plage.jpg");
+          				}
+          			}
+          		}
+          	}
+          '
+↓Spacer [ngx.components.UIDynamicElement-1676453249106]: 
+  beanData: '{"ionBean":"DivTag"}'
+  tagName: div
+  ↓Style [ngx.components.UIStyle-1676453286063]: 
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '	background-color: #4a1407;
+            	color: #fff;
+            	
+            	ion-item {
+            		--background: #4a1407 !important;
+            		--color: #fff !important;
+            	}
+            '
+  ↓Grid [ngx.components.UIDynamicElement-1676453540669]: 
+    beanData: '{"ionBean":"Grid"}'
+    tagName: ion-grid
+    ↓GridRow [ngx.components.UIDynamicElement-1676453540671]: 
+      beanData: '{"ionBean":"GridRow"}'
+      tagName: ion-row
+      ↓GridCol [ngx.components.UIDynamicElement-1676453540673]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓GenericItem [ngx.components.UIDynamicElement-1676453592712]: 
+          beanData: '{"ionBean":"GenericItem","Lines":"plain:none"}'
+          tagName: ion-item
+          ↓Attr [ngx.components.UIAttribute-1676453735027]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-left
+          ↓AvatarItem [ngx.components.UIDynamicElement-1676453842512]: 
+            beanData: '{"ionBean":"Avatar","IonSlot":"plain:start"}'
+            tagName: ion-avatar
+            ↓Image [ngx.components.UIDynamicElement-1676453842514]: 
+              beanData: '{"ionBean":"Image","url":"plain:assets\/avatar\/icons8-user-female.png"}'
+              selfClose: true
+              tagName: img
+          ↓Label [ngx.components.UIDynamicElement-1676455044733]: 
+            beanData: '{"ionBean":"Label"}'
+            tagName: ion-label
+            ↓Text [ngx.components.UIText-1676453816886]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Jane Doe
+↓Grid [ngx.components.UIDynamicElement-1676455703409]: 
+  beanData: '{"ionBean":"Grid","Width":"plain:100%"}'
+  tagName: ion-grid
+  ↓GridRow [ngx.components.UIDynamicElement-1676455703411]: 
+    beanData: '{"ionBean":"GridRow","Height":"plain:25%"}'
+    tagName: ion-row
+    ↓GridCol [ngx.components.UIDynamicElement-1676455703413]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676469213896]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676469225880]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676469241628]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''analytics''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Paragraph [ngx.components.UIDynamicElement-1676469255231]: 
+            beanData: '{"ionBean":"Paragraph"}'
+            tagName: p
+            ↓Text1 [ngx.components.UIText-1676469259047]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:ANALYTICS
+          ↓Attr [ngx.components.UIAttribute-1676471665940]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676469405759]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+    ↓GridCol1 [ngx.components.UIDynamicElement-1676455703419]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676475826168]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Attr [ngx.components.UIAttribute-1676475835963]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter bg1
+        ↓Div [ngx.components.UIDynamicElement-1676475854552]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676475854555]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''flame''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+  ↓Attr [ngx.components.UIAttribute-1676455749952]: 
+    attrName: class
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: plain:rightMenu
+  ↓GridRow1 [ngx.components.UIDynamicElement-1676455937043]: 
+    beanData: '{"ionBean":"GridRow","Height":"plain:25%"}'
+    tagName: ion-row
+    ↓GridCol [ngx.components.UIDynamicElement-1676455937046]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676478564346]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676478564349]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676478564352]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''images''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Paragraph [ngx.components.UIDynamicElement-1676478564355]: 
+            beanData: '{"ionBean":"Paragraph"}'
+            tagName: p
+            ↓Text1 [ngx.components.UIText-1676478564358]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:IMAGES
+          ↓Attr [ngx.components.UIAttribute-1676478564361]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676478564364]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+    ↓GridCol1 [ngx.components.UIDynamicElement-1676455937055]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676478692993]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676478692996]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676478692999]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''finger-print''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Paragraph [ngx.components.UIDynamicElement-1676478693002]: 
+            beanData: '{"ionBean":"Paragraph"}'
+            tagName: p
+            ↓Text1 [ngx.components.UIText-1676478693005]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:TOUCH-ID
+          ↓Attr [ngx.components.UIAttribute-1676478693008]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676478693011]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+    ↓GridCol2 [ngx.components.UIDynamicElement-1676478536881]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676478733100]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676478733103]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676478733106]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''flash''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Paragraph [ngx.components.UIDynamicElement-1676478733109]: 
+            beanData: '{"ionBean":"Paragraph"}'
+            tagName: p
+            ↓Text1 [ngx.components.UIText-1676478733112]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:FLASH
+          ↓Attr [ngx.components.UIAttribute-1676478733115]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676478733118]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+  ↓GridRow2 [ngx.components.UIDynamicElement-1676455940829]: 
+    beanData: '{"ionBean":"GridRow","Height":"plain:25%"}'
+    tagName: ion-row
+    ↓GridCol [ngx.components.UIDynamicElement-1676455940832]: 
+      beanData: '{"ionBean":"GridCol","Size":"plain:6"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676478962155]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Attr [ngx.components.UIAttribute-1676478962158]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter bg3
+        ↓Div [ngx.components.UIDynamicElement-1676478962161]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676478962164]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''settings''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+    ↓GridCol1 [ngx.components.UIDynamicElement-1676455940841]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676479286802]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676479286805]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676479286808]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''logo-xbox''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Attr [ngx.components.UIAttribute-1676479286817]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676479286820]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+    ↓GridCol2 [ngx.components.UIDynamicElement-1676478879661]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676479290099]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676479290102]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676479290105]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''logo-ionic''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Attr [ngx.components.UIAttribute-1676479290114]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676479290117]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+  ↓GridRow3 [ngx.components.UIDynamicElement-1676455943146]: 
+    beanData: '{"ionBean":"GridRow","Height":"plain:25%"}'
+    tagName: ion-row
+    ↓GridCol [ngx.components.UIDynamicElement-1676455943149]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676479727520]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Div [ngx.components.UIDynamicElement-1676479727523]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676479727526]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''water''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
+          ↓Attr [ngx.components.UIAttribute-1676479727529]: 
+            attrName: class
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:ion-text-center
+        ↓Attr [ngx.components.UIAttribute-1676479727532]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter
+    ↓GridCol1 [ngx.components.UIDynamicElement-1676455943158]: 
+      beanData: '{"ionBean":"GridCol","Size":"plain:8"}'
+      tagName: ion-col
+      ↓Div [ngx.components.UIDynamicElement-1676479776627]: 
+        beanData: '{"ionBean":"DivTag"}'
+        tagName: div
+        ↓Attr [ngx.components.UIAttribute-1676479776630]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:vCenter bg2
+        ↓Div [ngx.components.UIDynamicElement-1676479776633]: 
+          beanData: '{"ionBean":"DivTag"}'
+          tagName: div
+          ↓Icon [ngx.components.UIDynamicElement-1676479776636]: 
+            beanData: |
+              '{
+               "ionBean": "Icon",
+               "IconName": "source:{\"filter\":\"Icon\",\"project\":\"menu\",\"input\":\"\",\"model\":{\"data\":[{\"icon\":\"''logo-angular''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}",
+               "IconMdName": "plain",
+               "IconIosName": "plain",
+               "IonSize": "plain:large"
+              }'
+            tagName: ion-icon
